@@ -20,70 +20,70 @@ int main() {
     float Grade;
 
 
-        // Take input from the user
-        cout << "Please Enter Student Fist Name: " << endl;
-        cin >> FistName;
+    // Take input from the user
+    cout << "Please Enter Student Fist Name: " << endl;
+    cin >> FistName;
+
+    cout << "Please Enter Student Last Name: " << endl;
+    cin >> LastName;
+
+    // User input for Student Course and and Level
+    cout << "Please Enter Student Course: " << endl;
+    cin >> StudentCourse;
+
+    cout << "Please Enter Student Level: " << endl;
+    cin >> StudentLevel;
+
+    // Store first Name and last neme into student Name variable
     
-        cout << "Please Enter Student Last Name: " << endl;
-        cin >> LastName;
+    StudentName = FistName + ' ' + LastName;
+    // cout << "Student Name: " << StudentName;
 
-        // User input for Student Course and and Level
-        cout << "Please Enter Student Course: " << endl;
-        cin >> StudentCourse;
-
-        cout << "Please Enter Student Level: " << endl;
-        cin >> StudentLevel;
-
-        // Store first Name and last neme into student Name variable
-        
-        StudentName = FistName + ' ' + LastName;
-        // cout << "Student Name: " << StudentName;
-    
-        /*Take input for Continious Assessment 
-            Assessment1 less than 50
-            Assessment2 less than 30
-            Assessment3 less than 20
-        */
+    /*Take input for Continious Assessment 
+        Assessment1 less than 50
+        Assessment2 less than 30
+        Assessment3 less than 20
+    */
   
 
 
-        // Assessment1
-        cout << "Please Enter Student Continious Assessment 1: " << endl;
-        cin >> ConAcessment1;
+    // Assessment1
+    cout << "Please Enter Student Continious Assessment 1: " << endl;
+    cin >> ConAcessment1;
 
-        if(ConAcessment1 > 50 ){
-            cout << "input Error" << endl;
-            return 0;
-        }
-            // Assessment2
-            
-        cout << "Please Enter Student Continious Assessment 2: " << endl;
-        cin >> ConAcessment2;
+    if(ConAcessment1 > 50 ){
+        cout << "input Error" << endl;
+        return 0;
+    }
+        // Assessment2
+        
+    cout << "Please Enter Student Continious Assessment 2: " << endl;
+    cin >> ConAcessment2;
 
-        if(ConAcessment2 > 30 ){
-            cout << "input Error" << endl;
-            return 0;
-        }
+    if(ConAcessment2 > 30 ){
+        cout << "input Error" << endl;
+        return 0;
+    }
 
-            // Assessment3
+        // Assessment3
 
-        cout << "Please Enter Student Continious Assessment 3: " << endl;
-        cin >> ConAcessment3;
+    cout << "Please Enter Student Continious Assessment 3: " << endl;
+    cin >> ConAcessment3;
 
-        if(ConAcessment3 > 30 ){
-            cout << "input Error" << endl;
-            return 0;
-        }
-   
+    if(ConAcessment3 > 30 ){
+        cout << "input Error" << endl;
+        return 0;
+    }
 
-        // Compute Marks for Continous Assessment and store value in new variable
 
-            TotaloFConAssessment = ConAcessment1 + ConAcessment2 + ConAcessment3;
+    // Compute Marks for Continous Assessment and store value in new variable
 
-            ConAcessmentPercentage = TotaloFConAssessment / 100 * 30;
-            cout << "Student Course Work Result" << ConAcessmentPercentage << endl;
+    TotaloFConAssessment = ConAcessment1 + ConAcessment2 + ConAcessment3;
 
-    
+    ConAcessmentPercentage = TotaloFConAssessment / 100 * 30;
+    cout << "Student Course Work Result" << ConAcessmentPercentage << endl;
+
+
 
     // Exams Result less than 
     cout << "Please Enter Exams Result: " << endl;
