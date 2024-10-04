@@ -38,12 +38,12 @@ int main() {
     
     StudentName = FistName + ' ' + LastName;
     // cout << "Student Name: " << StudentName;
-
-    /*Take input for Continious Assessment 
-        Assessment1 less than 50
-        Assessment2 less than 30
-        Assessment3 less than 20
-    */
+/* 
+    Take input for Continious Assessment 
+    Assessment1 less than 50
+    Assessment2 less than 30
+    Assessment3 less than 20 */
+    
   
 
 
@@ -109,13 +109,13 @@ int main() {
     
     if (ExamsAndIA >= 80)
     {
-        cout << "Grade: A" << ExamsAndIA << endl; 
+        cout << "Grade: A " << ExamsAndIA << endl; 
     } else if (ExamsAndIA >= 75)
     {
-        cout << "Grade: B" << endl;
+        cout << "Grade: B " << endl;
     } else if (ExamsAndIA >= 50){
-        cout << "Grade : C" << ExamsAndIA << endl;
+        cout << "Grade: C " << ExamsAndIA << endl;
     } else {
-        cout << "Fail" << endl;
+        cout << "Fail " << endl;
     }
 }
